@@ -1,1 +1,1 @@
-web: gunicorn pagina_beto:app
+gunicorn pagina_beto:app
