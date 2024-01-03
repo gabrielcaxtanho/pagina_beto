@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>PET LOCALIZADO </title> <i class="fas fa-radiation fa-spin"></i>
+    <title>PET LOCALIZADO </title>
+    <link rel="icon" href="https://static.vecteezy.com/ti/vetor-gratis/p3/21512828-cachorro-bravo-logotipo-simples-negativo-espaco-projeto-isolado-com-suave-fundo-vetor.jpg" type="image/png">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/custom.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -21,11 +22,16 @@
 <section id="corpo">
     <div id="corpao">
 
-        <div id="corpo1">
-            <div id="informacoes1">
+
+        <div id="corpo2">
+            <div id="informacoes2">
+                <h1 id="contate">NOME</h1>
+                <p id="infor">BETO</p>
+                <p id="img"><img src="{{ url_for('static', filename='beto.jpeg') }}" alt="Minha Imagem" style="width: 180px;border-radius: 10px; margin: 20px;"></p>
+                <p style="    margin: 30px;">Me ajude a retornar para minha casa!</p>
+                <p style="    margin: 30px;">CASO O PET CHEGUE A SALVO ESSE SISTEMA TRABALHA COM RECOMPENSA!</p>
 
             </div>
-
 
 
         </div>
@@ -34,10 +40,11 @@
             <div id="informacoes2">
                 <h1 id="contate">CONTATE-NOS:</h1>
                 <p id="infor">61 99568 - 8106</p>
+                <p id="infor">61 99607 - 6028</p>
                 <p id="infor">41 99101 - 0550</p>
-                <p>WHATSAPP DIRETO: </p>
+                <p>CLIQUE NO LINK ABAIXO E FALE COM O DONO: </p>
                 <a id="inf" style="background-color: #e4d1cb; color: green;" href="{{ url_for('abrir_link2') }}" class="btn" target="_blank"><i  class="fa-fa-brands fa-whatsapp fa-2x fa" style="background-color: #e4d1cb;"></i> WHATSAPP LINK</a>
-                <p>Clique Aqui e localize o dono para captura da recompensa e entrega do PET:</p>
+                <p style="margin: 30px;">CLIQUE ABAIXO E VEJA A ROTA DE ENTREGA DO PET E RESGATE DA RECOMPENSA!</p>
                 <a id="inf" style="color: #3f51b5d4; border-radius: 10px;" href="{{ url_for('abrir_link') }}" class="btn" target="_blank"><i id="inf" class="fa-solid fa-location-arrow fa-3x" ></i> LOCALIZACAO</a>
             </div>
 
