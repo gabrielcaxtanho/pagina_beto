@@ -9,7 +9,12 @@ font-family: 'FontAwesome';
 
 
 #achai{
-background-color:  #e36a93;
+background-color:  white;
+border-radius: 10px;
+color: Black;
+margin: 10px;
+padding: 2px;
+box-shadow: 0 10px 6px 1px rgb(0 0 0);
 font-family: "Trirong", serif;
 }
 
@@ -21,16 +26,13 @@ justify-content: space-between;
 flex-wrap: nowrap;
 align-content: space-around;
 color: white;
-background-color:  #e36a93;
+background-image:url(https://garden.spoonflower.com/c/2549936/p/f/m/lBF5XTJ1a4ox2-Pn8JMHJTIewOn2ZxIa3lkIv6Da2xNoZmC1yB8/Color%20Pop%20Doodle%20Dogs%2C%20%204%20inch%20x%208%20inch%20repeat%20scale%20Black%20Outline.jpg) ;
 height: 70px;
 border-bottom-right-radius: 10px 10px;
 border-bottom-left-radius: 10px 10px;
 
 }
 
-#achai {
-padding-left:2%;
-}
 
 .p{
 padding: 2px;
@@ -149,7 +151,29 @@ border-radius:10px;
 }
 
 
+@media screen and (max-width: 600px) {
+*{
 
+}
+#corpo{
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: flex-start;
+justify-content: space-around;
+}
+
+
+#corpao{
+display:flex;
+align-items: center;
+margin-left: 0%;
+margin-top: 0%;
+}
+
+
+
+}
 
 
 
