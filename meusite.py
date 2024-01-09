@@ -12,6 +12,10 @@ app.secret_key = 'tiodino'
 def index():
     return render_template('inicio.html')
 
+@app.route('/pagina-mobile')
+def pagina_mobile():
+    return render_template('pagina_mobile.html')
+
 @app.route('/abrir_link')
 def abrir_link():
     url = "https://encurtador.com.br/uFOU3"
@@ -19,13 +23,19 @@ def abrir_link():
 
 @app.route('/abrir_link2')
 def abrir_link2():
-    url = "https://wa.me/5541991010550"
+    url = "https://wa.me/5561999076028"
     return redirect(url)
 
 
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
+
+
+
 
 
 
