@@ -1,0 +1,228 @@
+*{
+background-color: #cdad58;
+text-decoration: none;
+font-family: 'FontAwesome';
+
+}
+
+#achai{
+background-color:  white;
+border-radius: 10px;
+color: Black;
+margin: 10px;
+padding: 2px;
+box-shadow: 0 5px 6px 1px rgb(0, 0, 0, 0.8);
+font-family: "Trirong", serif;
+}
+
+#logo{
+padding:20px;
+}
+
+#logo1{
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+justify-content: space-between;
+flex-wrap: nowrap;
+align-content: space-around;
+color: white;
+background-image:url(https://garden.spoonflower.com/c/2549936/p/f/m/lBF5XTJ1a4ox2-Pn8JMHJTIewOn2ZxIa3lkIv6Da2xNoZmC1yB8/Color%20Pop%20Doodle%20Dogs%2C%20%204%20inch%20x%208%20inch%20repeat%20scale%20Black%20Outline.jpg) ;
+height: 70px;
+border-bottom-right-radius: 10px 10px;
+border-bottom-left-radius: 10px 10px;
+background-color: aliceblue;
+box-shadow: 0 9px 9px -2px rgb(40 82 160);
+}
+
+
+.p{
+padding: 2px;
+}
+
+#corpo{
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: flex-start;
+justify-content: space-around;
+padding:10px;
+height: 400px;
+}
+
+#corpao{
+display:flex;
+margin-top: 0%;
+margin-left: 0%;
+padding:0px;
+align-items: center;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: space-between;
+justify-content: space-around;
+}
+
+#corpo2{
+display:flex;
+flex-direction: column;
+justify-content: center;
+margin-right: 10%;
+border-radius: 10px;
+background-color: #e4d1cb;
+width: 700px;
+align-items: center;
+}
+
+#corpo1{
+display: flex;
+background-repeat: round;
+background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSzg84p2dQC80L9fgdlSI0cU2BqkEBqqwOkPdEeqH5KwC47KdrGl7h4IOW2bwLVUfryLbYiycgf3o6pZIJ9BiXv6SlejKYCvKzJF-0w0hDFFSDYLXbHyqCWCU5I39d1XfqHubf0HLEmU8CetwWDEAOs1rok-q3gXuAz3rx2UZBw0MNpFepelslyyb3HyY/s320/Captura%20de%20tela%202023-12-11%20081555.png);
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding:60px;
+margin-right: 5%;
+height: 280px;
+width: 35%;
+border-radius: 10px;
+}
+
+#informacoes1 {
+padding: 2%;
+background-color: #e4d1cb;
+}
+
+#informacoes1 {
+text-align: center;
+padding: 2%;
+background-color: #e4d1cb;
+}
+
+#foto{
+text-align: center;
+border-radius: 10px;
+padding: 2%;
+background-color: cornflowerblue;
+}
+
+#nome{
+text-align: center;
+border-radius: 10px;
+
+padding: 2%;
+background-color: purple;
+}
+
+#sistema{
+text-align: center;
+border-radius: 10px;
+
+padding: 2%;
+background-color: grey;
+}
+
+#informacoes2{
+background-color: #e4d1cb;
+
+}
+
+#informacoes2 p{
+text-align: center;
+background-color: #e4d1cb;
+font-family: 'FontAwesome';
+}
+
+#informacoes2 h1{
+text-align: center;
+background-color: #e4d1cb;
+font-family: 'FontAwesome';
+}
+
+#inf{
+display: flex;
+flex-direction: column;
+text-align: center;
+padding: 2%;
+background-color: #e4d1cb;
+}
+
+#informacoes2{
+border-radius:10px;
+margin: 4%;
+}
+
+
+
+#img{
+
+}
+
+
+@media screen and (max-width: 600px) {
+*{
+
+}
+#corpo{
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: flex-start;
+justify-content: space-around;
+}
+#corpo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 01%;
+    margin-right: 01%;
+    border-radius: 10px;
+    background-color: #e4d1cb;
+    align-items: center;
+}
+
+
+
+
+
+#logo-mobile{
+padding:0px;
+}
+
+#logo1-mobile{
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+justify-content: space-between;
+flex-wrap: nowrap;
+align-content: space-around;
+color: white;
+background-image:url(https://garden.spoonflower.com/c/2549936/p/f/m/lBF5XTJ1a4ox2-Pn8JMHJTIewOn2ZxIa3lkIv6Da2xNoZmC1yB8/Color%20Pop%20Doodle%20Dogs%2C%20%204%20inch%20x%208%20inch%20repeat%20scale%20Black%20Outline.jpg) ;
+height: 70px;
+border-bottom-right-radius: 10px 10px;
+border-bottom-left-radius: 10px 10px;
+background-color: aliceblue;
+box-shadow: 0 9px 9px -2px rgb(40 82 160);
+}
+
+#achai-mobile{
+background-color:  white;
+border-radius: 10px;
+color: Black;
+margin: 10px;
+padding: 2px;
+box-shadow: 0 5px 6px 1px rgb(0, 0, 0, 0.8);
+font-family: "Trirong", serif;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
