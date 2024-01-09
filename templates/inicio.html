@@ -9,7 +9,17 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/custom.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+       function redirecionarSeMobile() {
+            if (window.innerWidth < 700) {
+                window.location.href = "/pagina-mobile";
+            }
+        }
 
+        // Chame a função quando a página for carregada
+        window.onload = redirecionarSeMobile;
+
+    </script>
 </head>
 <body style="margin: 1px; margin-top: -16px;">
 
@@ -42,7 +52,6 @@
                 <h1 id="contate">CONTATE-NOS:</h1>
                 <p id="infor">61 99568 - 8106</p>
                 <p id="infor">61 99607 - 6028</p>
-                <p id="infor">41 99101 - 0550</p>
                 <p>CLIQUE NO LINK ABAIXO E FALE COM O DONO: </p>
                 <a id="inf" style="background-color: #e4d1cb; color: green;" href="{{ url_for('abrir_link2') }}" class="btn" target="_blank"><i  class="fa-fa-brands fa-whatsapp fa-2x fa" style="background-color: #e4d1cb;"></i> WHATSAPP LINK</a>
                 <p style="margin: 30px;">CLIQUE ABAIXO E VEJA A ROTA DE ENTREGA DO PET E RESGATE DA RECOMPENSA!</p>
