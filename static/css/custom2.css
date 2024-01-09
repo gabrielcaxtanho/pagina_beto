@@ -1,8 +1,12 @@
 *{
-background-color: #cdad58;
+
 text-decoration: none;
 font-family: 'FontAwesome';
 
+}
+
+body{
+background-color: #7b9aff9c;
 }
 
 #achai{
@@ -186,6 +190,7 @@ justify-content: space-around;
 
 #logo-mobile{
 padding:0px;
+
 }
 
 #logo1-mobile{
@@ -201,7 +206,7 @@ height: 70px;
 border-bottom-right-radius: 10px 10px;
 border-bottom-left-radius: 10px 10px;
 background-color: aliceblue;
-box-shadow: 0 9px 9px -2px rgb(40 82 160);
+box-shadow: -5px 7px 6px -2px rgb(0 2 0);
 }
 
 #achai-mobile{
@@ -214,7 +219,10 @@ box-shadow: 0 5px 6px 1px rgb(0, 0, 0, 0.8);
 font-family: "Trirong", serif;
 }
 
-
+#icone{
+margin: 4%;
+padding: 1%;
+}
 
 
 
