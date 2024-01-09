@@ -1,11 +1,12 @@
 *{
-background-color: #cdad58;
 text-decoration: none;
 font-family: 'FontAwesome';
 
 }
 
-
+body{
+background-color: #7b9aff9c;
+}
 
 
 #achai{
@@ -14,8 +15,11 @@ border-radius: 10px;
 color: Black;
 margin: 10px;
 padding: 2px;
-box-shadow: 0 10px 6px 1px rgb(0 0 0);
+box-shadow: 0 5px 6px 1px rgb(0, 0, 0, 0.8);
 font-family: "Trirong", serif;
+}
+#logo{
+padding:20px;
 }
 
 #logo1{
@@ -30,7 +34,8 @@ background-image:url(https://garden.spoonflower.com/c/2549936/p/f/m/lBF5XTJ1a4ox
 height: 70px;
 border-bottom-right-radius: 10px 10px;
 border-bottom-left-radius: 10px 10px;
-
+background-color: aliceblue;
+box-shadow: -5px 7px 6px -2px rgb(0 2 0);
 }
 
 
@@ -188,7 +193,47 @@ flex-wrap: nowrap;
 
 
 
+#logo-mobile{
+padding:0px;
 }
+
+#logo1-mobile{
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+justify-content: space-between;
+flex-wrap: nowrap;
+align-content: space-around;
+color: white;
+background-image:url(https://garden.spoonflower.com/c/2549936/p/f/m/lBF5XTJ1a4ox2-Pn8JMHJTIewOn2ZxIa3lkIv6Da2xNoZmC1yB8/Color%20Pop%20Doodle%20Dogs%2C%20%204%20inch%20x%208%20inch%20repeat%20scale%20Black%20Outline.jpg) ;
+height: 70px;
+border-bottom-right-radius: 10px 10px;
+border-bottom-left-radius: 10px 10px;
+background-color: aliceblue;
+box-shadow: 0 9px 9px -2px rgb(40 82 160);
+}
+
+#achai-mobile{
+background-color:  white;
+border-radius: 10px;
+color: Black;
+margin: 10px;
+padding: 2px;
+box-shadow: 0 5px 6px 1px rgb(0, 0, 0, 0.8);
+font-family: "Trirong", serif;
+}
+
+
+
+#icone{
+margin: 4%;
+padding: 1%;
+}
+
+
+
+}
+
 
 
 
