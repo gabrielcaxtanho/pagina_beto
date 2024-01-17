@@ -10,7 +10,7 @@ app.secret_key = 'tiodino'
 
 # Twilio credentials
 account_sid = "AC5a91b8ed9c1596ad5e629395eecb7a72"
-auth_token = "913e12748185b251754d9a65b8d23854"
+auth_token = "74125a2ab3ce1c0633cfb91b50b21757"
 
 # Create a Twilio client
 client = Client(account_sid, auth_token)
@@ -50,6 +50,17 @@ def abrir_link2():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
