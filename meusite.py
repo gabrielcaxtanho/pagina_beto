@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect
-
+from twilio.rest import Client
 
 
 
@@ -8,9 +8,29 @@ app = Flask(__name__)
 app.secret_key = 'tiodino'
 
 
+# Twilio credentials
+account_sid = "AC5a91b8ed9c1596ad5e629395eecb7a72"
+auth_token = "913e12748185b251754d9a65b8d23854"
+
+# Create a Twilio client
+client = Client(account_sid, auth_token)
+
+
+
 @app.route('/')
 def index():
     return render_template('inicio.html')
+
+@app.route('/alerta')
+def alerta():
+    message = client.messages.create(
+                        to="+5561999076028",
+                        from_="+13235181156",
+                        body='Alerta do cachorro: BETO, Marcado como perdido')
+    print(message.sid)
+    return redirect('/')
+
+
 
 @app.route('/pagina-mobile')
 def pagina_mobile():
@@ -30,6 +50,13 @@ def abrir_link2():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
+
+
+
+
 
 
 
