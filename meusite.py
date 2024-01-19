@@ -10,7 +10,7 @@ app.secret_key = 'tiodino'
 
 # Twilio credentials
 account_sid = "AC5a91b8ed9c1596ad5e629395eecb7a72"
-auth_token = "74125a2ab3ce1c0633cfb91b50b21757"
+auth_token = "cc04b7051a92639106849aeb2df61237"
 
 # Create a Twilio client
 client = Client(account_sid, auth_token)
