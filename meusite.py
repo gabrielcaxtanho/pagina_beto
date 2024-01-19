@@ -19,7 +19,7 @@ client = Client(account_sid, auth_token)
 
 @app.route('/')
 def index():
-    return render_template('inicio.html')
+    return render_template('index.html')
 
 @app.route('/alerta')
 def alerta():
